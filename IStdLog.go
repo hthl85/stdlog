@@ -2,8 +2,12 @@ package stdlog
 
 // IStdLog interface
 type IStdLog interface {
-    Infof(event LogEvent)
-    Errorf(event LogEvent)
-    Fatalf(event LogEvent)
-    Panicf(event LogEvent)
+	Info(msg string)
+	Infof(event LogEvent)
+	Error(msg string)
+	Errorf(event LogEvent)
+	Fatal(msg string)
+	Fatalf(event LogEvent)
+	Panic(msg string)
+	Panicf(event LogEvent)
 }
