@@ -1,6 +1,6 @@
 package stdlog
 
 type LogEvent struct {
-	ID      int
-	Message string
+    ID      int
+    Message string
 }
