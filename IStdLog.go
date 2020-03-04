@@ -2,7 +2,7 @@ package stdlog
 
 // IStdLog interface
 type IStdLog interface {
-	Info(err string)
+	Info(info string)
 	Error(err string)
 	Errorf(err error)
 	Fatal(err string)
